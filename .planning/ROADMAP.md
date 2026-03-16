@@ -26,11 +26,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Page renders correctly on a mobile phone screen with no horizontal scrolling or cramped layout
   4. Page background is dark, text is white, buttons share a consistent pill shape with a visible hover effect, and typography uses a system/SF Pro font stack
   5. Browser tab shows a descriptive page title (not a generic "index" or blank)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: HTML structure — document skeleton, profile header (avatar, name, tagline), four link buttons
-- [ ] 01-02: CSS styling — dark theme, typography, button design, responsive layout, hover effects
+- [ ] 01-01-PLAN.md — HTML structure: document skeleton, profile header (avatar, name, tagline), four link buttons with correct hrefs
+- [ ] 01-02-PLAN.md — CSS styling: dark theme, typography, pill buttons, hover effects, responsive layout + human verify
 
 ## Progress
 
