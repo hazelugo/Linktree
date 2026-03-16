@@ -1,0 +1,127 @@
+/* =====================================================
+   Linktree — Apple-inspired dark theme
+   No external dependencies. System font stack only.
+   ===================================================== */
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body — dark background, white text, system font stack */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 64px 24px 48px;
+}
+
+/* Container — narrow centered column */
+.container {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* Profile header */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Avatar — circular, with subtle border */
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Name */
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 0.9375rem;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.01em;
+}
+
+/* Links nav — vertical stack */
+.links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Link button — pill shape, consistent for all four buttons */
+.link-button {
+  display: block;
+  width: 100%;
+  padding: 16px 24px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-radius: 980px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hover effect */
+.link-button:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Active/pressed state */
+.link-button:active {
+  background-color: rgba(255, 255, 255, 0.06);
+  transform: translateY(0);
+}
+
+/* Responsive — mobile adjustments at 480px and below */
+@media (max-width: 480px) {
+  body {
+    padding: 48px 20px 40px;
+  }
+
+  .name {
+    font-size: 1.375rem;
+  }
+
+  .link-button {
+    padding: 15px 20px;
+    font-size: 0.9375rem;
+  }
+}
