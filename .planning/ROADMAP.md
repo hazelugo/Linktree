@@ -29,7 +29,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — HTML structure: document skeleton, profile header (avatar, name, tagline), four link buttons with correct hrefs
+- [x] 01-01-PLAN.md — HTML structure: document skeleton, profile header (avatar, name, tagline), four link buttons with correct hrefs
 - [ ] 01-02-PLAN.md — CSS styling: dark theme, typography, pill buttons, hover effects, responsive layout + human verify
 
 ## Progress
@@ -39,4 +39,4 @@ Phases execute in numeric order: 1
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Build and Ship | 0/2 | Not started | - |
+| 1. Build and Ship | 1/2 | In progress | - |

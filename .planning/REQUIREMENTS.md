@@ -7,15 +7,15 @@
 
 ### Profile
 
-- [ ] **PROF-01**: Page displays avatar image, name, and tagline in a centered header
-- [ ] **PROF-02**: Page has a descriptive document title (browser tab)
+- [x] **PROF-01**: Page displays avatar image, name, and tagline in a centered header
+- [x] **PROF-02**: Page has a descriptive document title (browser tab)
 
 ### Links
 
-- [ ] **LINK-01**: User can click GitHub button and open GitHub profile in a new tab
-- [ ] **LINK-02**: User can click Amazon Wishlist button and open wishlist in a new tab
-- [ ] **LINK-03**: User can click CashApp button and open CashApp in a new tab
-- [ ] **LINK-04**: User can click PayPal button and open PayPal donation in a new tab
+- [x] **LINK-01**: User can click GitHub button and open GitHub profile in a new tab
+- [x] **LINK-02**: User can click Amazon Wishlist button and open wishlist in a new tab
+- [x] **LINK-03**: User can click CashApp button and open CashApp in a new tab
+- [x] **LINK-04**: User can click PayPal button and open PayPal donation in a new tab
 
 ### Design
 
@@ -44,12 +44,12 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| PROF-01 | Phase 1 | Pending |
-| PROF-02 | Phase 1 | Pending |
-| LINK-01 | Phase 1 | Pending |
-| LINK-02 | Phase 1 | Pending |
-| LINK-03 | Phase 1 | Pending |
-| LINK-04 | Phase 1 | Pending |
+| PROF-01 | Phase 1 | Complete (01-01) |
+| PROF-02 | Phase 1 | Complete (01-01) |
+| LINK-01 | Phase 1 | Complete (01-01) |
+| LINK-02 | Phase 1 | Complete (01-01) |
+| LINK-03 | Phase 1 | Complete (01-01) |
+| LINK-04 | Phase 1 | Complete (01-01) |
 | DESG-01 | Phase 1 | Pending |
 | DESG-02 | Phase 1 | Pending |
 | DESG-03 | Phase 1 | Pending |
